@@ -11,7 +11,8 @@ pipeline {
         }
         stage('Test') {
             steps {
-                build 'SeleniumMaven'
+//                 build 'SeleniumMaven'
+                sh "date"
             }
         }
         stage('Deploy') {
