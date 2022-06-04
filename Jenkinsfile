@@ -13,7 +13,7 @@ pipeline {
             steps {
 //                 build 'SeleniumMaven'
                 sh "date"
-                echo "check!!"
+                echo "WebHook check!!"
             }
         }
         stage('Deploy') {
