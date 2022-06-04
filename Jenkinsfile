@@ -13,6 +13,7 @@ pipeline {
             steps {
 //                 build 'SeleniumMaven'
                 sh "date"
+                echo "check!!"
             }
         }
         stage('Deploy') {
