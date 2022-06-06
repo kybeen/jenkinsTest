@@ -13,7 +13,7 @@ pipeline {
             steps {
 //                 build 'SeleniumMaven'
                 sh "date"
-                echo "WebHook check"
+                echo "UTC 시간이라 한국 기준 9시간 전으로 표시됩니다"
             }
         }
         stage('Deploy') {
